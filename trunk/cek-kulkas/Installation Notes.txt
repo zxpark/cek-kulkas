@@ -1,0 +1,16 @@
+################################################################
+#    ####  ####  #  #     #  #  #  #  #     #  #  ####  ####   #
+#    #     #     # #      # #   #  #  #     # #   #  #  #      #
+#    #     ####  ##       ##    #  #  #     ##    #  #  ####   #
+#    #     #     # #      # #   #  #  #     # #   ####     #   #
+#    ####  ####  #  #     #  #  ####  ####  #  #  #  #  ####   #
+################################################################
+
+Cara instalasi:
+1. Jalankan file instalasi cek kulkas dari device android anda
+2. Ikuti petunjuk yang diberikan
+3. Cek Kulkas terinstal di device android anda
+
+Requirement minimal:
+1. Sistem operasi Android v2.2 Froyo
+2. Resolusi 240x320, 180 dpi

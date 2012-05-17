@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/namaresepshare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:text="nama resep"
+        android:padding="15dp"/>
+    
+    <EditText
+        android:id="@+id/komentarresep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan komentar Anda disini"
+        android:gravity="top"
+        android:lines="5"
+        />
+    
+    <LinearLayout 
+        android:id="@+id/checkboxshare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <CheckBox
+            android:id="@+id/checkboxtwitter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="twitter"
+            android:drawableLeft="@drawable/twitter"/>
+        
+        <Button
+            android:id="@+id/logintwitter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="login ke twitter"
+            android:onClick="loginTwitter"
+            android:drawableLeft="@drawable/twitter"/>
+        
+        <CheckBox 
+            android:id="@+id/checkboxfacebook"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="facebook"
+            android:drawableLeft="@drawable/fb"/>
+        
+        <Button
+            android:id="@+id/loginfacebook"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="login ke facebook"
+            android:onClick="loginFb"
+            android:drawableLeft="@drawable/fb"/>
+        
+    </LinearLayout>
+	
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+        
+        <Button
+            android:id="@+id/ambilgambar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Ambil Gambar"
+            android:visibility="gone"/>
+        
+        <Button
+            android:id="@+id/tombolshare"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Share"
+            android:onClick="share"/>
+        
+    </LinearLayout>
+    
+</LinearLayout>
